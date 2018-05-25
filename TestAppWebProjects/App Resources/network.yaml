@@ -1,0 +1,13 @@
+## Network definition ##
+network:
+  schemaVersion: 0.0.1
+  name: TestAppWebProjectsNetwork
+  description: TestAppWebProjectsNetwork description.
+  addressPrefix: 10.0.0.4/22
+  ingressConfig:
+    layer4:
+      - name: WebSiteProjectIngress
+        publicPort: 20000
+        applicationName: TestAppWebProjects
+        serviceName: WebSiteProject
+        endpointName: WebSiteProjectListener

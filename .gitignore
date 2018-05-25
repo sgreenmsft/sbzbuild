@@ -1,0 +1,17 @@
+msbuild.log
+bin
+obj
+.vs
+TestResults
+packages/
+[Tt]emp/
+*.user
+*.sln.*
+*~
+*.suo
+*.tmp_proj
+*.vstman
+*.Release.ForceImportBeforeCppTargets.props
+*.Release.vsprops
+*.Debug.ForceImportBeforeCppTargets.props
+*.Debug.vsprops
